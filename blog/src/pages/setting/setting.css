@@ -1,0 +1,96 @@
+.setting{
+    
+    flex:6;
+}
+.settingwrapper{
+    display: flex;
+    width:70vw;
+}
+.settingcat{
+margin:20px;
+}
+.settingtitle{
+display: flex;
+justify-content: space-between;
+
+}
+.settingtitleitem{
+color: red;
+font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+
+}
+.settingtitleitem2{
+    color: red;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    }
+    .settingtext{
+        margin-top: 10px;
+    }
+.settingimg{
+   margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+  
+}
+.settingiconitem{
+margin-top: 10px;
+size: 70px;
+
+}    
+.settingform{
+display: flex;
+flex-direction: column;
+}
+.settingpp{
+display: flex;
+align-items: center;
+}
+.settingiconitem{
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    
+border-radius: 50%;
+cursor: pointer;
+background-color:paleturquoise ;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.settingform>label{
+font-size: 20px;
+margin-top: 10px;
+
+}
+.settingform>input{
+margin-top: 10px;
+    border: none;
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+}
+.settingform>input:focus{
+    
+        border: none;
+    }
+.settingsubmit{
+    margin-top:10px ;
+border:none;
+height: 40px;
+width: 60px;
+background-color: teal;
+color: white;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+margin-left: 250px;
+cursor: pointer;
+}
